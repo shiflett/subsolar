@@ -1,0 +1,415 @@
+* {
+  font-size: 100%;
+  font-weight: 500 !important;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: #fdf6e3;
+  color: #586E75;
+  font-family: Menlo, "Lucida Grande";
+  font-size: 12px;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: visible;
+  z-index: 100;
+}
+
+body div#body_home {
+  bottom: 0;
+  left: 0;
+  max-height: 97.5%;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+body div#body_home div {
+  margin-top: -1px;
+}
+
+body div#body_home p {
+  clear: both;
+  position: relative;
+}
+
+body .time {
+  color: #93a1a1;
+}
+
+a {
+  color: #268BD2;
+  text-decoration: none;
+}
+
+#topic_bar {
+  background: #eee8d5;
+  border-bottom: 1px solid #b58900;
+  color: #93a1a1;
+  font-size: 12px;
+  left: 0;
+  padding: 2px .5em 3px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 400;
+  text-overflow: ellipsis;
+}
+
+#topic_bar a {
+  color: #93a1a1;
+  text-decoration: none;
+}
+
+body a img {
+  border: 0;
+}
+
+body img {
+  display: block;
+  max-width: 95%;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+div[id=mark] {
+  border-bottom: 1px solid;
+  border-color: #b58900;
+  margin-top: -1px;
+  position: relative;
+  z-index: 295;
+}
+
+body div[type=notice],
+body div[type=ctcp],
+body div[type=wallops] {
+  background: #fcc;
+  border-bottom: 1px solid #f77;
+  border-top: 1px solid #f77;
+  color: #dc322f;
+  padding: 2px 5px;
+  position: relative;
+  z-index: 191;
+}
+
+body div[type=notice] .sender {
+  color: #dc322f;
+  font-weight: 500;
+}
+
+body div[type=privmsg][highlight=true],
+body div[type=action][highlight=true] {
+  background-color: #eee8d5 !important;
+  border-bottom: 1px solid #b58900;
+  border-top: 1px solid #b58900;
+  font-weight: 400;
+  padding: 2px 5px;
+}
+
+body div[type=action] .message {
+  color: #073642;
+}
+
+body div[type=action] .sender:before {
+  content: "\2022";
+  margin-right: .4em;
+}
+
+body div[type=action] .sender:after {
+  content: "";
+}
+
+body div[type=invite],
+body div[type=reply],
+body div[type=system],
+body div[type=error],
+body div[type=error_reply],
+body div[type=debug_send],
+body div[type=debug_receive] {
+  background: #eee8d5;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  color: #073642;
+  padding: 2px 5px;
+  position: relative;
+  z-index: 190;
+}
+
+body div[type=join],
+body div[type=part],
+body div[type=kick],
+body div[type=quit],
+body div[type=kill],
+body div[type=nick],
+body div[type=mode],
+body div[type=topic] {
+  color: #93a1a1;
+  padding: 3px 5px;
+}
+
+body div[type=join] .message:before {
+  color: #859900;
+  content: "→";
+  font-weight: 500;
+  margin-right: 3px;
+}
+
+body div[type=kick] .message:before,
+body div[type=part] .message:before,
+body div[type=quit] .message:before {
+  color: #dc322f;
+  content: "←";
+  margin-right: 3px;
+}
+
+body div[type=nick] .message:before {
+  color: #859900;
+  content: "•";
+  margin-right: 3px;
+}
+
+.effect[color-number='0'] {
+  color: #fff;
+}
+
+.effect[color-number='1'] {
+  color: #000;
+}
+
+.effect[color-number='2'] {
+  color: #008;
+}
+
+.effect[color-number='3'] {
+  color: #080;
+}
+
+.effect[color-number='4'] {
+  color: red;
+}
+
+.effect[color-number='5'] {
+  color: #800;
+}
+
+.effect[color-number='6'] {
+  color: #808;
+}
+
+.effect[color-number='7'] {
+  color: #f80;
+}
+
+.effect[color-number='8'] {
+  color: #ff0;
+}
+
+.effect[color-number='9'] {
+  color: #0f0;
+}
+
+.effect[color-number='10'] {
+  color: #088;
+}
+
+.effect[color-number='11'] {
+  color: #0ff;
+}
+
+.effect[color-number='12'] {
+  color: #00f;
+}
+
+.effect[color-number='13'] {
+  color: #f0f;
+}
+
+.effect[color-number='14'] {
+  color: #888;
+}
+
+.effect[color-number='15'] {
+  color: #ccc;
+}
+
+.effect[bgcolor-number='0'] {
+  background-color: #fff;
+}
+
+.effect[bgcolor-number='1'] {
+  background-color: #000;
+}
+
+.effect[bgcolor-number='2'] {
+  background-color: #008;
+}
+
+.effect[bgcolor-number='3'] {
+  background-color: #080;
+}
+
+.effect[bgcolor-number='4'] {
+  background-color: red;
+}
+
+.effect[bgcolor-number='5'] {
+  background-color: #800;
+}
+
+.effect[bgcolor-number='6'] {
+  background-color: #808;
+}
+
+.effect[bgcolor-number='7'] {
+  background-color: #f80;
+}
+
+.effect[bgcolor-number='8'] {
+  background-color: #ff0;
+}
+
+.effect[bgcolor-number='9'] {
+  background-color: #0f0;
+}
+
+.effect[bgcolor-number='10'] {
+  background-color: #088;
+}
+
+.effect[bgcolor-number='11'] {
+  background-color: #0ff;
+}
+
+.effect[bgcolor-number='12'] {
+  background-color: #00f;
+}
+
+.effect[bgcolor-number='13'] {
+  background-color: #f0f;
+}
+
+.effect[bgcolor-number='14'] {
+  background-color: #888;
+}
+
+.effect[bgcolor-number='15'] {
+  background-color: #ccc;
+}
+
+a:hover,
+#topic_bar a:hover {
+  border-bottom: solid 1px;
+  border-color: #6C71C4;
+  color: #6C71C4;
+}
+
+body div[type=privmsg][highlight=false],
+body div[type=action] {
+  padding: 3px 5px;
+}
+
+body div[type=privmsg] .message,
+body div[type=privmsg] p[type=myself] .message {
+  color: #586E75;
+}
+
+body div[type=privmsg] .sender,
+body div[type=action] .sender,
+body .inline_nickname {
+  font-weight: 500;
+}
+
+body div[type=action] p[type=myself] .sender,
+body div[type=action] p[type=myself] .message,
+body .sender[type=normal][colornumber='3'],
+body .inline_nickname[colornumber='3'],
+body .sender[type=normal][colornumber='11'],
+body .inline_nickname[colornumber='11'],
+body .sender[type=normal][colornumber='19'],
+body .inline_nickname[colornumber='19'],
+body .sender[type=normal][colornumber='27'],
+body .inline_nickname[colornumber='27'] {
+  color: #d33682;
+}
+
+body div[type=privmsg] .sender[type=myself],
+body div[type=action] .sender[type=myself],
+body .sender[type=normal][colornumber='0'],
+body .inline_nickname[colornumber='0'],
+body .sender[type=normal][colornumber='8'],
+body .inline_nickname[colornumber='8'],
+body .sender[type=normal][colornumber='16'],
+body .inline_nickname[colornumber='16'],
+body .sender[type=normal][colornumber='24'],
+body .inline_nickname[colornumber='24'] {
+  color: #b58900;
+}
+
+body .sender[type=normal][colornumber='1'],
+body .inline_nickname[colornumber='1'],
+body .sender[type=normal][colornumber='9'],
+body .inline_nickname[colornumber='9'],
+body .sender[type=normal][colornumber='17'],
+body .inline_nickname[colornumber='17'],
+body .sender[type=normal][colornumber='25'],
+body .inline_nickname[colornumber='25'] {
+  color: #cb4b16;
+}
+
+body .sender[type=normal][colornumber='2'],
+body .inline_nickname[colornumber='2'],
+body .sender[type=normal][colornumber='10'],
+body .inline_nickname[colornumber='10'],
+body .sender[type=normal][colornumber='18'],
+body .inline_nickname[colornumber='18'],
+body .sender[type=normal][colornumber='26'],
+body .inline_nickname[colornumber='26'] {
+  color: #dc322f;
+}
+
+body .sender[type=normal][colornumber='4'],
+body .inline_nickname[colornumber='4'],
+body .sender[type=normal][colornumber='12'],
+body .inline_nickname[colornumber='12'],
+body .sender[type=normal][colornumber='20'],
+body .inline_nickname[colornumber='20'],
+body .sender[type=normal][colornumber='28'],
+body .inline_nickname[colornumber='28'] {
+  color: #6c71c4;
+}
+
+body .sender[type=normal][colornumber='5'],
+body .inline_nickname[colornumber='5'],
+body .sender[type=normal][colornumber='13'],
+body .inline_nickname[colornumber='13'],
+body .sender[type=normal][colornumber='21'],
+body .inline_nickname[colornumber='21'],
+body .sender[type=normal][colornumber='29'],
+body .inline_nickname[colornumber='29'] {
+  color: #268bd2;
+}
+
+body .sender[type=normal][colornumber='6'],
+body .inline_nickname[colornumber='6'],
+body .sender[type=normal][colornumber='14'],
+body .inline_nickname[colornumber='14'],
+body .sender[type=normal][colornumber='22'],
+body .inline_nickname[colornumber='22'],
+body .sender[type=normal][colornumber='30'],
+body .inline_nickname[colornumber='30'] {
+  color: #2aa198;
+}
+
+body .sender[type=normal][colornumber='7'],
+body .inline_nickname[colornumber='7'],
+body .sender[type=normal][colornumber='15'],
+body .inline_nickname[colornumber='15'],
+body .sender[type=normal][colornumber='23'],
+body .inline_nickname[colornumber='23'],
+body .sender[type=normal][colornumber='31'],
+body .inline_nickname[colornumber='31'] {
+  color: #859900;
+}
