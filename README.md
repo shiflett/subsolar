@@ -19,3 +19,9 @@ Next, just clone this project right there:
 Restart Textual, then under Preferences, you should see a new style called *subsolar*.
 
 If you have any trouble, just [let me know](http://shiflett.org/contact), and I'll try to help.
+
+## Screen Shot
+
+Go ahead. Judge a book by its cover.
+
+![#python](http://f.cl.ly/items/300Y1v2k3g1b1M3N3Q09/hashpython.png.png)
