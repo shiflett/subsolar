@@ -25,3 +25,7 @@ If you have any trouble, just [let me know](http://shiflett.org/contact), and I'
 Go ahead; judge a book by its cover.
 
 ![#python](http://f.cl.ly/items/0K1v2A3Q313r2n2V1f0B/hashpython.png)
+
+By popular demand, *subsolar-dark* is coming soon.
+
+![Subsolar Dark](http://f.cl.ly/items/2P3s323v1c420v1g3u2R/subsolar-dark.png)
