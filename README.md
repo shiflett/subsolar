@@ -24,4 +24,4 @@ If you have any trouble, just [let me know](http://shiflett.org/contact), and I'
 
 Go ahead. Judge a book by its cover.
 
-![#python](http://f.cl.ly/items/300Y1v2k3g1b1M3N3Q09/hashpython.png.png)
+![#python](http://f.cl.ly/items/0K1v2A3Q313r2n2V1f0B/hashpython.png)
