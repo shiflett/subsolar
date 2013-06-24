@@ -1,6 +1,6 @@
 # Subsolar
 
-Subsolar is a Textual theme inspired heavily by Sublime (for typography) and Solarized (for color).
+Subsolar is a [Textual](https://github.com/Codeux/Textual) theme inspired heavily by [Sublime](http://sublimetext.com/) (for typography) and [Solarized](http://ethanschoonover.com/solarized) (for color).
 
 Because I'm on IRC all day every day, I decided it was worth investing a bit of time to try to make it look better. This is the best I can come up with so far, and I'll improve it over time.
 
@@ -8,11 +8,11 @@ While choosing colors, I made extensive use of the [Solarized cheat sheet](http:
 
 ## Usage
 
-To use, first find where your Textual themes are located. This might work for you:
+To use, first find where your Textual themes are located. This will probably work for you:
 
     $ cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application\ Support/Textual\ IRC/Styles
 
-Next, just clone this project right there:
+Next, just clone this project there:
 
     $ git clone git@github.com:shiflett/subsolar.git
 
@@ -22,6 +22,6 @@ If you have any trouble, just [let me know](http://shiflett.org/contact), and I'
 
 ## Screen Shot
 
-Go ahead. Judge a book by its cover.
+Go ahead; judge a book by its cover.
 
 ![#python](http://f.cl.ly/items/0K1v2A3Q313r2n2V1f0B/hashpython.png)
