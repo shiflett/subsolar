@@ -28,4 +28,4 @@ Go ahead; judge a book by its cover.
 
 By popular demand, *subsolar-dark* is coming soon.
 
-![Subsolar Dark](http://f.cl.ly/items/2P3s323v1c420v1g3u2R/subsolar-dark.png)
+![Subsolar Dark](http://f.cl.ly/items/251d0v1M1x050b340L1B/subsolar-dark.png)
