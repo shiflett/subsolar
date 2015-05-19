@@ -10,7 +10,7 @@ While choosing colors, I made extensive use of the [Solarized cheat sheet](http:
 
 To use, first find where your Textual themes are located. This will probably work for you:
 
-    $ cd ~/Library/Containers/com.codeux.irc.textual/Data/Library/Application\ Support/Textual\ IRC/Styles
+    $ cd ~/Library/Group\ Containers/8482Q6EPL6.com.codeux.irc.textual/Library/Application\ Support/Textual/Styles/
 
 Next, just clone this project there:
 
